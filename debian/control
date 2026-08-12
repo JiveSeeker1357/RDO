@@ -1,0 +1,13 @@
+Source: rdo
+Section: hamradio
+Priority: optional
+Maintainer: JiveSeeker1357 <you@example.com>
+Build-Depends: debhelper (>= 10), gcc
+Standards-Version: 4.1.2
+
+Package: rdo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Radio Tool for Amateur Radio Enthusiasts
+ A simple and lightweight tool for tuning radio frequencies.
+ Supports BSD-style commands like rdo -fm 90.8.
